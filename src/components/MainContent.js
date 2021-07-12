@@ -4,7 +4,7 @@ import TodoItem from "./TodoItem";
 import todosData from "../todosData";
 
 const MainContent = () => {
-	const todoitem = todosData.map((item) => <TodoItem key={item.id} todos={item} />);
+	const todoitem = todosData.map((item) => <TodoItem key={item.id} items={item} />);
 
 	return (
 		<main>
