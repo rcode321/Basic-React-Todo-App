@@ -8,7 +8,7 @@ import Box from "@material-ui/core/Box";
 
 import { makeStyles } from "@material-ui/core/styles";
 
-const TtodoItem = ({ items }) => {
+const TodoItem = ({ items }) => {
 	console.log(items);
 	const classes = useStyles();
 
@@ -49,4 +49,4 @@ const useStyles = makeStyles((theme) => ({
 	},
 }));
 
-export default TtodoItem;
+export default TodoItem;
