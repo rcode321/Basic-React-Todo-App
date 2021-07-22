@@ -5,7 +5,7 @@ const Header = () => {
 	const classes = useStyles();
 	return (
 		<header>
-			<h1 className={classes.header}>Todo App ReactJs</h1>
+			<h1 className={classes.header}>Todo App Reactjs</h1>
 		</header>
 	);
 };
