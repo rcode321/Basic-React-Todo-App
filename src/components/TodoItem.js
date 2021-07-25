@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
 	bgCheckbox: {
 		background: "#E8E8E8",
 		color: "black",
-		padding: theme.spacing(1),
+		padding: theme.spacing(2),
 	},
 }));
 
