@@ -9,7 +9,7 @@ const MainContent = () => {
 	return (
 		<main>
 			<h2>This is main content of our todo app project.</h2>
-			<p>this is your basic todo app</p>
+			<p>this is your basic todo app.</p>
 			{todoitem}
 		</main>
 	);
